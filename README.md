@@ -5,6 +5,7 @@
 
 1. 요구 기술
 - 자바 안드로이드
+- PHP + Apache 서버(Android, mysql 연동 중간매개)
 - Ubuntu, MySQL
 
 2. 앱 씬
