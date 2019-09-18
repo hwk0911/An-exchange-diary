@@ -1,0 +1,12 @@
+####Android Studio gitignore####
+
+.idea/libraries/
+.gradle/
+build/
+app/build/
+
+
+
+local.properties
+app/app.iml
+*.iws
