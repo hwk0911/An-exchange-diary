@@ -18,11 +18,7 @@
 - SQLITE
 
 4) 공통
-<<<<<<< HEAD
 - Github 을 통한 SVC
-=======
-- Git을 통한 SVC
->>>>>>> 89e988bda98342c643888d69a11ef81fd21ad24a
 
 2. 씬
 -Login
