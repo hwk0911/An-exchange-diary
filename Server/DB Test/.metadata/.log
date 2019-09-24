@@ -1,0 +1,51 @@
+!SESSION 2019-09-25 00:42:30.684 -----------------------------------------------
+eclipse.buildId=4.4.0.201909171436-RELEASE
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.springframework.boot.ide.branding.sts4
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springframework.boot.ide.branding.sts4
+
+!ENTRY org.eclipse.jface 2 0 2019-09-25 00:42:33.994
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-25 00:42:33.994
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3595086b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@627d35ff,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-25 00:42:37.595
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\hwk09'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY Activator 4 0 2019-09-25 00:43:15.557
+!MESSAGE CoreException: Timed out waiting for Spring Cloud CLI to be installed
+!STACK 1
+org.eclipse.core.runtime.CoreException: Timed out waiting for Spring Cloud CLI to be installed
+	at org.springsource.ide.eclipse.commons.livexp.util.ExceptionUtil.coreException(ExceptionUtil.java:41)
+	at org.springsource.ide.eclipse.commons.livexp.util.ExceptionUtil.coreException(ExceptionUtil.java:32)
+	at org.springsource.ide.eclipse.commons.livexp.util.ExceptionUtil.coreException(ExceptionUtil.java:50)
+	at org.springframework.ide.eclipse.boot.util.Log.error(Log.java:60)
+	at org.springframework.ide.eclipse.boot.dash.model.local.AutoCloudCliInstaller.performInstall(AutoCloudCliInstaller.java:54)
+	at org.springframework.ide.eclipse.boot.dash.model.local.LocalServicesModel$1.doPerform(LocalServicesModel.java:62)
+	at org.springframework.ide.eclipse.boot.dash.model.BootDashHyperlink.perform(BootDashHyperlink.java:35)
+	at org.springframework.ide.eclipse.boot.dash.views.sections.BootDashUnifiedTreeSection$10$1.run(BootDashUnifiedTreeSection.java:389)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SUBENTRY 1 Activator 4 0 2019-09-25 00:43:15.557
+!MESSAGE Timed out waiting for Spring Cloud CLI to be installed

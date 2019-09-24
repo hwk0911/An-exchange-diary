@@ -13,6 +13,10 @@
 
 3) Android
 - 안드로이드 스튜디오 (8.1 오레오)
+- SQLITE
+
+4) 공통
+- Github 을 통한 SVC
 
 2. 씬
 -Login
