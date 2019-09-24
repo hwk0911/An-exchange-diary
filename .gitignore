@@ -1,3 +1,7 @@
+###################
+#######Server########
+###################
+
 */DB_Test/demo/.classpath
 */DB_Test/demo/.project
 */DB_Test/demo/.settings/
@@ -7,3 +11,7 @@
 */DB_Test/demo/target/
 */DB_Test/demo/HELP.md
 */DB_Test/RemoteSystemsTempFiles/
+
+####################
+######Server End######
+####################
