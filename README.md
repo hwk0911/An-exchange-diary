@@ -17,6 +17,9 @@
 - 안드로이드 스튜디오 (8.1 오레오)
 - SQLITE
 
+4) 공통
+- Git을 통한 SVC
+
 2. 씬
 -Login
 구성 : Logo, Editbox(ID, PW), Button(Login, 회원가입, 아이디 / 비밀번호 찾기)
