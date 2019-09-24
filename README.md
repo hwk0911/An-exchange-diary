@@ -6,13 +6,16 @@
 1. 요구 기술
 1) 서버
 - STS + JSON
+- AWS Ubuntu
 
 2) DBA
 - Oracle MySQL
 - AES_DECRYPT 암호화, 복호화 (양방향 암호화)
+- AWS Ubuntu
 
 3) Android
 - 안드로이드 스튜디오 (8.1 오레오)
+- SQLITE
 
 2. 씬
 -Login
